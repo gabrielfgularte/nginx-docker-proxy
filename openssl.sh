@@ -15,12 +15,6 @@ if [ -z "$DOMAIN" ]; then
     exit 1
 fi
 
-# # check if PORT var is set
-# if [ -z "$PORT" ]; then
-#     echo "Error: PORT env var is not set."
-#     exit 1
-# fi
-
 # Criar a pasta certs se não existir
 mkdir -p certs
 
