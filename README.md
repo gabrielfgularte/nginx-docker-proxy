@@ -20,6 +20,7 @@ A lightweight and configurable Nginx proxy setup using Docker and Docker Compose
 
 ## Tips & Gotchas
 
+- Changes to the `hosts` file might take a while to take effect.
 - If you're using Windows or macOS, or if you don't have `make` installed, you'll need to manually:
     1. Run `openssl.sh` to generate the certificates.
     2. Start the container with `docker-compose up --build -d`.
